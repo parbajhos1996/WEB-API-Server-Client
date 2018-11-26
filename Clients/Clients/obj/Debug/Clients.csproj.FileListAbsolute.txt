@@ -18,3 +18,4 @@ c:\users\adam\source\repos\Clients\Clients\bin\Debug\Newtonsoft.Json.xml
 c:\users\adam\source\repos\Clients\Clients\obj\Debug\Clients.csproj.CopyComplete
 c:\users\adam\source\repos\Clients\Clients\obj\Debug\DoctorClient.g.cs
 c:\users\adam\source\repos\Clients\Clients\obj\Debug\DoctorClient.baml
+C:\Users\adam\source\repos\Clients\Clients\obj\Debug\GeneratedInternalTypeHelper.g.cs

@@ -11,8 +11,9 @@ namespace WebApplication1.Controllers
     {
         private static IList<Patient> PatientList = new List<Patient>();
 
-        public IEnumerable<Patient> Get()
+        public IList<Patient> Get()
         {
+            Console.WriteLine("asdasdasdasda");
             return PatientList;
         }
 
@@ -28,7 +29,11 @@ namespace WebApplication1.Controllers
 
         public void Post([FromBody]Patient patient)
         {
-            if (patient != null)
+            if (PatientList.Contains(patient))
+            {
+                PatientList.Remove(patient);
+            }
+            else if (patient != null)
             {
                 PatientList.Add(patient);
             }
